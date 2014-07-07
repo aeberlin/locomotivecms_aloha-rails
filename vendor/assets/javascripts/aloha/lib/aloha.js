@@ -540,6 +540,7 @@
 			Aloha.features.jquery = true;
 
 			// Set it again in case jQuery was loaded asynchronously.
+			$.extendObjects = jQuery.extendObjects;
 			Aloha.jQuery = $;
 
 			// Some core files provide default settings in Aloha.defaults.
